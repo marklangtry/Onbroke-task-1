@@ -1,0 +1,54 @@
+GUI _PrpFEVwqEe21A7GVIQZA2A {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "EditOffer"
+  DataContext _PrtWgVwqEe21A7GVIQZA2A at 10,10 size 180,130 {
+  	dfViewWorkaround true
+  }
+  
+  Template _Prt9kVwqEe21A7GVIQZA2A at 240,10 size 150,190 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _PrvywFwqEe21A7GVIQZA2A {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _PrwZ0VwqEe21A7GVIQZA2A at 10,30 size 130,130 {
+  		generalStyle GeneralStyling _Pr3HgFwqEe21A7GVIQZA2A {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _Prxn8VwqEe21A7GVIQZA2A at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _PryPAVwqEe21A7GVIQZA2A at 2,10 size 14,7 {
+  		}
+  		
+  		Col _Pr0EMVwqEe21A7GVIQZA2A at 10,30 size 100,80 {
+  			wideness Full
+  			layout Layout _Pr2gcVwqEe21A7GVIQZA2A {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _Pr2gcFwqEe21A7GVIQZA2A {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _Pr0rQVwqEe21A7GVIQZA2A at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _Pr1SUVwqEe21A7GVIQZA2A at 10,2 size 7,14 {
+  			}
+  		}
+  	}
+  }
+}

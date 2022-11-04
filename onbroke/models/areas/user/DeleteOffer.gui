@@ -1,0 +1,146 @@
+GUI _JTj9cVrREe2g0et3pq0Cqg {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "DeleteOffers"
+  DataContext _JTtHYVrREe2g0et3pq0Cqg at 10,10 size 180,80 {
+  	dfViewWorkaround true
+  }
+  
+  Template _JTuVgVrREe2g0et3pq0Cqg at 240,10 size 270,370 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _JTwKsFrREe2g0et3pq0Cqg {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _JTwxwVrREe2g0et3pq0Cqg at 10,30 size 250,170 {
+  		generalStyle GeneralStyling _JT24YFrREe2g0et3pq0Cqg {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _JTx_4VrREe2g0et3pq0Cqg at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _JTx_41rREe2g0et3pq0Cqg at 2,10 size 14,7 {
+  		}
+  		
+  		Col _JTzOAVrREe2g0et3pq0Cqg at 10,30 size 220,120 {
+  			wideness Full
+  			layout Layout _JT2RUFrREe2g0et3pq0Cqg {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _JT1qQFrREe2g0et3pq0Cqg {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _JT0cIVrREe2g0et3pq0Cqg at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _JT1DMVrREe2g0et3pq0Cqg at 10,2 size 7,14 {
+  			}
+  			
+  			Text _f5Zh4VrREe2g0et3pq0Cqg at 10,30 size 200,60 {
+  				content [ StaticContent _f5dMQVrREe2g0et3pq0Cqg {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "Are you sure you want to delete?"
+  						styling TextStyling _f5fBcFrREe2g0et3pq0Cqg {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _f5dMQFrREe2g0et3pq0Cqg {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _f5clMVrREe2g0et3pq0Cqg at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _f5clM1rREe2g0et3pq0Cqg at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  	}
+  	
+  	Button _jEj2UVrREe2g0et3pq0Cqg at 10,210 size 200,60 {
+  		displayLabel ""
+  		label "Yes"
+  		styling ButtonStyling _jEvcgFrREe2g0et3pq0Cqg {
+  				fullWidth false
+  				size Default
+  				disabled false
+  				color Default
+  			}
+  		options ButtonOptions _jExRsFrREe2g0et3pq0Cqg {
+  				isLink false
+  				submitsForm true
+  			}
+  		disabled false
+  		icon Icon _jEp88FrREe2g0et3pq0Cqg {
+  				postIcon None
+  				preIcon None
+  			}
+  		generalStyle GeneralStyling _jEpV4FrREe2g0et3pq0Cqg {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _jEm5oVrREe2g0et3pq0Cqg at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _jEoHwVrREe2g0et3pq0Cqg at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Button _kF5-kVrREe2g0et3pq0Cqg at 10,280 size 200,60 {
+  		displayLabel ""
+  		label "No"
+  		styling ButtonStyling _kGJ2MFrREe2g0et3pq0Cqg {
+  				fullWidth false
+  				size Default
+  				disabled false
+  				color Default
+  			}
+  		options ButtonOptions _kGLEUFrREe2g0et3pq0Cqg {
+  				isLink false
+  				submitsForm true
+  			}
+  		disabled false
+  		icon Icon _kGAFMFrREe2g0et3pq0Cqg {
+  				postIcon None
+  				preIcon None
+  			}
+  		generalStyle GeneralStyling _kF8a0FrREe2g0et3pq0Cqg {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _kF7zwVrREe2g0et3pq0Cqg at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _kF7zw1rREe2g0et3pq0Cqg at 2,10 size 14,7 {
+  		}
+  	}
+  }
+}

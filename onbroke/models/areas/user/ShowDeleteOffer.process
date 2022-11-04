@@ -1,0 +1,94 @@
+Process _M3fJcVrMEe2O2KCMjvHDmQ {
+  modelName "DeleteOffer"
+  description "DeleteOffer"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  DataContext _NJ9ZgVrMEe2O2KCMjvHDmQ at 20,0 size 210,108 {
+  	dfViewWorkaround true
+  	ComplexVariable _MQXUcVuPEe2eheknrd1w-A at 10,53 size 190,25 {
+  		expanded false
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		name "offer"
+  		dfViewWorkaround true
+  		isList true
+  	}
+  }
+  
+  StartSIB _NKEuQVrMEe2O2KCMjvHDmQ at 330,20 size 100,90 {
+  	ComplexOutputPort _60WCMVrNEe2g0et3pq0Cqg at 5,67 size 90,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  		-ComplexDirectDataFlow-> _TaLaUVuQEe2eheknrd1w-A via (320,96) (320,298) decorate "" at (0,0) {
+  			id _asLBQVuQEe2eheknrd1w-A
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _D8LMkVrSEe2g0et3pq0Cqg  decorate "" at (0,0) {
+  		id _FDL38VrSEe2g0et3pq0Cqg
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _NKT-0VrMEe2O2KCMjvHDmQ at 340,370 size 100,65 {
+  	branchName "success"
+  }
+  
+  GUISIB _D8LMkVrSEe2g0et3pq0Cqg at 330,124 size 120,65 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_JTj9cVrREe2g0et3pq0Cqg"
+  	name "DeleteOffer"
+  	label "DeleteOffer"
+  	ignoredBranch [  ]
+  	-BranchConnector-> _HSCqQVrUEe21aOfe4hqsDg   {
+  		id _HSD4YVrUEe21aOfe4hqsDg
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _OAHr0VrUEe21aOfe4hqsDg   {
+  		id _OAI58VrUEe21aOfe4hqsDg
+  		concurrent true
+  	}
+  }
+  
+  DeleteSIB _TDh04FuQEe2eheknrd1w-A at 640,220 size 120,90 index 6 {
+  	force true
+  	label "Delete"
+  	ignoredBranch [  ]
+  	ComplexInputPort _TaLaUVuQEe2eheknrd1w-A at 5,67 size 110,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  	}
+  	-BranchConnector-> _TDnUcVuQEe2eheknrd1w-A   {
+  		id _TDoikVuQEe2eheknrd1w-A
+  		concurrent true
+  	}
+  }
+  
+  Branch _HSCqQVrUEe21aOfe4hqsDg at 640,144 size 120,25 index 4 {
+  	name "Yes"
+  	-ControlFlow-> _TDh04FuQEe2eheknrd1w-A  decorate "" at (0,0) {
+  		id _YRypgVuQEe2eheknrd1w-A
+  		concurrent true
+  	}
+  }
+  
+  Branch _TDnUcVuQEe2eheknrd1w-A at 640,390 size 120,25 index 7 {
+  	name "deleted"
+  	-ControlFlow-> _NKT-0VrMEe2O2KCMjvHDmQ  decorate "" at (0,0) {
+  		id _ZN33QVuQEe2eheknrd1w-A
+  		concurrent true
+  	}
+  }
+  
+  Branch _OAHr0VrUEe21aOfe4hqsDg at 330,260 size 120,25 index 5 {
+  	name "No"
+  	-ControlFlow-> _NKT-0VrMEe2O2KCMjvHDmQ  decorate "" at (0,0) {
+  		id _R5ejAVrUEe21aOfe4hqsDg
+  		concurrent true
+  	}
+  }
+}
