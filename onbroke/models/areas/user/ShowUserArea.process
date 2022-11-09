@@ -11,13 +11,18 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   	}
   }
   
-  GUISIB _lsPHwVFQEe2J0bu3ffrh5w at 190,140 size 120,65 {
+  GUISIB _lsPHwVFQEe2J0bu3ffrh5w at 190,130 size 120,90 {
   	cacheGUI false
   	majorPage true
   	libraryComponentUID "_jIfqkVFOEe2J0bu3ffrh5w"
   	name "UserArea"
   	label "UserArea"
   	ignoredBranch [  ]
+  	ComplexInputPort _f0xMAWAgEe22BuOfWtjuXQ at 5,67 size 110,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  	}
   	-BranchConnector-> _lsTZMVFQEe2J0bu3ffrh5w via (250,260) (538,260)  {
   		id _lsUnUVFQEe2J0bu3ffrh5w
   		concurrent true
@@ -167,9 +172,13 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   		isList false
   		name "currentUser"
+  		-ComplexDirectDataFlow-> _1faQUWAcEe22BuOfWtjuXQ via (280,316) (280,423) decorate "" at (0,0) {
+  			id _2FSkkWAcEe22BuOfWtjuXQ
+  			dfViewWorkaround true
+  		}
   	}
-  	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (369,450) (440,450) (440,172) decorate "" at (0,0) {
-  		id _cXIkIVFREe2J0bu3ffrh5w
+  	-ControlFlow-> _u-tjcGAcEe22BuOfWtjuXQ  decorate "" at (0,0) {
+  		id _vxnAAWAcEe22BuOfWtjuXQ
   		concurrent true
   	}
   }
@@ -187,7 +196,7 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   	}
   }
   
-  Documentation _WBw9gVFREe2J0bu3ffrh5w at 309,340 size 52,40 {
+  Documentation _WBw9gVFREe2J0bu3ffrh5w at 160,360 size 52,40 {
   	content "TODO"
   }
   
@@ -212,7 +221,7 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   
   Branch _6KIuIVOnEe2KQc5QIsW97w at 478,480 size 120,25 {
   	name "back"
-  	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (620,492) (620,172) decorate "" at (0,0) {
+  	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (620,492) (620,175) decorate "" at (0,0) {
   		id _760ooVOnEe2KQc5QIsW97w
   		concurrent true
   	}
@@ -283,6 +292,38 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   	name "success"
   	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (793,470) (793,172) decorate "" at (0,0) {
   		id _YRmcAVwvEe2etK7KcJL7eQ
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _u-tjcGAcEe22BuOfWtjuXQ at 290,347 size 120,90 {
+  	libraryComponentUID "_LCdXgWAcEe22BuOfWtjuXQ"
+  	label "ShowUserCreateOffer"
+  	ignoredBranch [  ]
+  	ComplexInputPort _1faQUWAcEe22BuOfWtjuXQ at 5,67 size 110,18 {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "user"
+  	}
+  	-BranchConnector-> _u-2GUWAcEe22BuOfWtjuXQ   {
+  		id _u-2tYWAcEe22BuOfWtjuXQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _u-2GUWAcEe22BuOfWtjuXQ at 290,449 size 120,50 {
+  	name "success"
+  	ComplexOutputPort _em3OcWAgEe22BuOfWtjuXQ at 5,27 size 110,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  		-ComplexDirectDataFlow-> _f0xMAWAgEe22BuOfWtjuXQ via (180,485) (180,206) decorate "" at (0,0) {
+  			id _gr_H4WAgEe22BuOfWtjuXQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (445,474) (445,175) decorate "" at (0,0) {
+  		id _wUK6gWAcEe22BuOfWtjuXQ
   		concurrent true
   	}
   }

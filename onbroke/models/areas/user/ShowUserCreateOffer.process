@@ -1,0 +1,206 @@
+Process _LCdXgWAcEe22BuOfWtjuXQ {
+  modelName "ShowUserCreateOffer"
+  description "ShowUserCreateOffer"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  DataContext _LVlu4WAcEe22BuOfWtjuXQ at 20,20 size 210,755 {
+  	dfViewWorkaround true
+  }
+  
+  StartSIB _LVtqsWAcEe22BuOfWtjuXQ at 330,20 size 100,90 {
+  	ComplexOutputPort _PmF6wWAcEe22BuOfWtjuXQ at 5,67 size 90,18 {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "user"
+  		-ComplexDirectDataFlow-> _fhjR4WAcEe22BuOfWtjuXQ via (320,96) (320,638) decorate "" at (0,0) {
+  			id _j_HCUWAcEe22BuOfWtjuXQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _Q4xDkWAcEe22BuOfWtjuXQ  decorate "" at (0,0) {
+  		id _Re6dkWAcEe22BuOfWtjuXQ
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _LVu40WAcEe22BuOfWtjuXQ at 330,860 size 100,90 {
+  	branchName "success"
+  	ComplexInputPort _cpKLoWAgEe22BuOfWtjuXQ at 5,67 size 90,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  	}
+  }
+  
+  ProcessSIB _Q4xDkWAcEe22BuOfWtjuXQ at 320,120 size 120,65 {
+  	libraryComponentUID "_of7nAVLHEe2djpkPxa2Z3Q"
+  	label "RetrieveFeatureTemplates"
+  	ignoredBranch [  ]
+  	-BranchConnector-> _Q47boWAcEe22BuOfWtjuXQ   {
+  		id _Q48CsWAcEe22BuOfWtjuXQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _Q47boWAcEe22BuOfWtjuXQ at 320,210 size 120,68 {
+  	name "success"
+  	ComplexOutputPort _Q4934WAcEe22BuOfWtjuXQ at 5,27 size 110,18 {
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isList true
+  		name "featuresForOffer"
+  		-ComplexDirectDataFlow-> _Sv_q8WAcEe22BuOfWtjuXQ via (310,246) (310,366) decorate "" at (0,0) {
+  			id _lGsVcWAcEe22BuOfWtjuXQ
+  			dfViewWorkaround true
+  		}
+  		
+  		-ComplexDirectDataFlow-> _SwCuQWAcEe22BuOfWtjuXQ via (310,246) (310,384) decorate "" at (0,0) {
+  			id _lhxu8WAcEe22BuOfWtjuXQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	ComplexOutputPort _Q5BiQWAcEe22BuOfWtjuXQ at 5,45 size 110,18 {
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isList true
+  		name "featuresForBidding"
+  	}
+  	-ControlFlow-> _Sv158GAcEe22BuOfWtjuXQ  decorate "" at (0,0) {
+  		id _TheLMWAcEe22BuOfWtjuXQ
+  		concurrent true
+  	}
+  }
+  
+  GUISIB _Sv158GAcEe22BuOfWtjuXQ at 320,290 size 120,108 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_GrzfMV8-Ee2rGL0kbj0kLA"
+  	name "UserCreateOffer"
+  	label "UserCreateOffer"
+  	ignoredBranch [  ]
+  	ComplexInputPort _Sv_q8WAcEe22BuOfWtjuXQ at 5,67 size 110,18 {
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isList true
+  		name "feature"
+  	}
+  	
+  	ComplexInputPort _SwCuQWAcEe22BuOfWtjuXQ at 5,85 size 110,18 {
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isList true
+  		name "preferences"
+  	}
+  	-BranchConnector-> _SwFxkWAcEe22BuOfWtjuXQ   {
+  		id _SwG_sWAcEe22BuOfWtjuXQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _SwFxkWAcEe22BuOfWtjuXQ at 320,420 size 120,104 {
+  	name "Submit"
+  	ComplexOutputPort _SwI04WAcEe22BuOfWtjuXQ at 5,27 size 110,18 {
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isList true
+  		name "pickedFeature"
+  		-ComplexDirectDataFlow-> _fh8TcWAcEe22BuOfWtjuXQ via (310,456) (310,674) decorate "" at (0,0) {
+  			id _ma8LkWAcEe22BuOfWtjuXQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	ComplexOutputPort _SwMfQWAcEe22BuOfWtjuXQ at 5,45 size 110,18 {
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isList true
+  		name "pickedPref"
+  		-ComplexDirectDataFlow-> _fh53MWAcEe22BuOfWtjuXQ via (310,474) (310,656) decorate "" at (0,0) {
+  			id _nN4rcWAcEe22BuOfWtjuXQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	PrimitiveOutputPort _SwQwsWAcEe22BuOfWtjuXQ at 5,63 size 110,18 {
+  		dataType Text
+  		isList false
+  		name "name"
+  		-PrimitiveDirectDataFlow-> _fidQ0WAcEe22BuOfWtjuXQ via (310,492) (310,710) decorate "" at (0,0) {
+  			id _nz4UcWAcEe22BuOfWtjuXQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	PrimitiveOutputPort _SwVpMWAcEe22BuOfWtjuXQ at 5,81 size 110,18 {
+  		dataType Text
+  		isList true
+  		name "description"
+  		-PrimitiveDirectDataFlow-> _fiYYUWAcEe22BuOfWtjuXQ via (310,510) (310,692) decorate "" at (0,0) {
+  			id _oKsR8WAcEe22BuOfWtjuXQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _Za-VMWAcEe22BuOfWtjuXQ  decorate "" at (0,0) {
+  		id _ZsvaoWAcEe22BuOfWtjuXQ
+  		concurrent true
+  	}
+  }
+  
+  CreateSIB _Za-VMWAcEe22BuOfWtjuXQ at 341,544 size 120,180 {
+  	libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  	label "Create Offer"
+  	ignoredBranch [  ]
+  	PrimitiveInputPort _ZbIGMWAcEe22BuOfWtjuXQ at 5,67 size 110,18 {
+  		dataType Text
+  		isList false
+  		name "internalName"
+  	}
+  	
+  	ComplexInputPort _fhjR4WAcEe22BuOfWtjuXQ at 5,85 size 110,18 {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "user"
+  	}
+  	
+  	ComplexInputPort _fh53MWAcEe22BuOfWtjuXQ at 5,103 size 110,18 {
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isList true
+  		name "preferences"
+  	}
+  	
+  	ComplexInputPort _fh8TcWAcEe22BuOfWtjuXQ at 5,121 size 110,18 {
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isList true
+  		name "features"
+  	}
+  	
+  	PrimitiveInputPort _fiYYUWAcEe22BuOfWtjuXQ at 5,139 size 110,18 {
+  		dataType Text
+  		isList true
+  		name "description"
+  	}
+  	
+  	PrimitiveInputPort _fidQ0WAcEe22BuOfWtjuXQ at 5,157 size 110,18 {
+  		dataType Text
+  		isList false
+  		name "title"
+  	}
+  	-BranchConnector-> _ZbR3MWAcEe22BuOfWtjuXQ   {
+  		id _ZbTsYWAcEe22BuOfWtjuXQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _ZbR3MWAcEe22BuOfWtjuXQ at 341,760 size 120,50 {
+  	name "success"
+  	ComplexOutputPort _ZbUTcWAcEe22BuOfWtjuXQ at 5,27 size 110,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "created"
+  		-ComplexDirectDataFlow-> _cpKLoWAgEe22BuOfWtjuXQ via (320,796) (320,936) decorate "" at (0,0) {
+  			id _dSBicWAgEe22BuOfWtjuXQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _LVu40WAcEe22BuOfWtjuXQ  decorate "" at (0,0) {
+  		id _a1ytYWAcEe22BuOfWtjuXQ
+  		concurrent true
+  	}
+  }
+}

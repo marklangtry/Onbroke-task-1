@@ -4,7 +4,7 @@ GUI _jIfqkVFOEe2J0bu3ffrh5w {
   additionalJavaScript [  ]
   additionalStylesheets [  ]
   title "UserArea"
-  DataContext _jIgRoVFOEe2J0bu3ffrh5w at 10,10 size 221,778 {
+  DataContext _jIgRoVFOEe2J0bu3ffrh5w at 10,10 size 221,350 {
   	dfViewWorkaround true
   	ComplexVariable _lsM9cVFOEe2J0bu3ffrh5w at 10,70 size 201,91 {
   		expanded false
@@ -36,6 +36,16 @@ GUI _jIfqkVFOEe2J0bu3ffrh5w {
   		-AddComplexToSubmission-> _EIl8nFFREe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _KhoiMVFREe2J0bu3ffrh5w
   		}
+  	}
+  	
+  	ComplexVariable _j810oWAgEe22BuOfWtjuXQ at 9,295 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isInput true
+  		name "offer"
+  		dfViewWorkaround true
+  		isList false
   	}
   }
   

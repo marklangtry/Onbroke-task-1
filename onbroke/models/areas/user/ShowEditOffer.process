@@ -8,10 +8,46 @@ Process _B2W3oVwnEe21A7GVIQZA2A {
   	dfViewWorkaround true
   }
   
-  StartSIB _CF03AVwnEe21A7GVIQZA2A at 330,20 size 100,65 {
+  StartSIB _CF03AVwnEe21A7GVIQZA2A at 330,20 size 100,90 {
+  	ComplexOutputPort _TuS1YV9PEe22B7qwREeq_A at 5,67 size 90,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  		-ComplexDirectDataFlow-> _Qb0YAV9PEe22B7qwREeq_A via (320,96) (320,256) decorate "" at (0,0) {
+  			id _UqRVcV9PEe22B7qwREeq_A
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _O1eFQV9PEe22B7qwREeq_A  decorate "" at (0,0) {
+  		id _PVYUYV9PEe22B7qwREeq_A
+  		concurrent true
+  	}
   }
   
   EndSIB _CF1eEVwnEe21A7GVIQZA2A at 330,500 size 100,65 {
   	branchName "success"
+  }
+  
+  DeleteSIB _O1eFQV9PEe22B7qwREeq_A at 470,180 size 120,90 {
+  	force true
+  	label "Delete"
+  	ignoredBranch [  ]
+  	ComplexInputPort _Qb0YAV9PEe22B7qwREeq_A at 5,67 size 110,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  	}
+  	-BranchConnector-> _O1jk0V9PEe22B7qwREeq_A   {
+  		id _O1kL4V9PEe22B7qwREeq_A
+  		concurrent true
+  	}
+  }
+  
+  Branch _O1jk0V9PEe22B7qwREeq_A at 480,300 size 120,25 {
+  	name "deleted"
+  	-ControlFlow-> _CF1eEVwnEe21A7GVIQZA2A  decorate "" at (0,0) {
+  		id _RagN0V9PEe22B7qwREeq_A
+  		concurrent true
+  	}
   }
 }

@@ -8,7 +8,7 @@ GUI _PrpFEVwqEe21A7GVIQZA2A {
   	dfViewWorkaround true
   }
   
-  Template _Prt9kVwqEe21A7GVIQZA2A at 240,10 size 150,190 {
+  Template _Prt9kVwqEe21A7GVIQZA2A at 240,10 size 270,230 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _PrvywFwqEe21A7GVIQZA2A {
@@ -17,7 +17,7 @@ GUI _PrpFEVwqEe21A7GVIQZA2A {
   			attributes [  ]
   			marginTop None
   		}
-  	Row _PrwZ0VwqEe21A7GVIQZA2A at 10,30 size 130,130 {
+  	Row _PrwZ0VwqEe21A7GVIQZA2A at 10,30 size 250,170 {
   		generalStyle GeneralStyling _Pr3HgFwqEe21A7GVIQZA2A {
   				tallness Fitting
   				marginBottom None
@@ -30,7 +30,7 @@ GUI _PrpFEVwqEe21A7GVIQZA2A {
   		MoveDown _PryPAVwqEe21A7GVIQZA2A at 2,10 size 14,7 {
   		}
   		
-  		Col _Pr0EMVwqEe21A7GVIQZA2A at 10,30 size 100,80 {
+  		Col _Pr0EMVwqEe21A7GVIQZA2A at 10,30 size 220,120 {
   			wideness Full
   			layout Layout _Pr2gcVwqEe21A7GVIQZA2A {
   					size Default
@@ -47,6 +47,36 @@ GUI _PrpFEVwqEe21A7GVIQZA2A {
   			}
   			
   			MoveRight _Pr1SUVwqEe21A7GVIQZA2A at 10,2 size 7,14 {
+  			}
+  			
+  			Text _24zpEV9UEe2LGdsfLJwOrA at 10,30 size 200,60 {
+  				content [ StaticContent _24-oMF9UEe2LGdsfLJwOrA {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "DIME :("
+  						styling TextStyling _25AdYF9UEe2LGdsfLJwOrA {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _248zAF9UEe2LGdsfLJwOrA {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _244hkV9UEe2LGdsfLJwOrA at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _245IoV9UEe2LGdsfLJwOrA at 2,10 size 14,7 {
+  				}
   			}
   		}
   	}
