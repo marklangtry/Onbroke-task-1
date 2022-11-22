@@ -4,7 +4,7 @@ GUI _jIfqkVFOEe2J0bu3ffrh5w {
   additionalJavaScript [  ]
   additionalStylesheets [  ]
   title "UserArea"
-  DataContext _jIgRoVFOEe2J0bu3ffrh5w at 10,10 size 221,350 {
+  DataContext _jIgRoVFOEe2J0bu3ffrh5w at 10,10 size 221,191 {
   	dfViewWorkaround true
   	ComplexVariable _lsM9cVFOEe2J0bu3ffrh5w at 10,70 size 201,91 {
   		expanded false
@@ -37,19 +37,9 @@ GUI _jIfqkVFOEe2J0bu3ffrh5w {
   			id _KhoiMVFREe2J0bu3ffrh5w
   		}
   	}
-  	
-  	ComplexVariable _j810oWAgEe22BuOfWtjuXQ at 9,295 size 201,25 {
-  		expanded false
-  		isLive false
-  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
-  		isInput true
-  		name "offer"
-  		dfViewWorkaround true
-  		isList false
-  	}
   }
   
-  Template _jIg4sVFOEe2J0bu3ffrh5w at 300,10 size 290,1138 {
+  Template _jIg4sVFOEe2J0bu3ffrh5w at 300,10 size 290,1278 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _jIhfwFFOEe2J0bu3ffrh5w {
@@ -208,7 +198,7 @@ GUI _jIfqkVFOEe2J0bu3ffrh5w {
   		}
   	}
   	
-  	Panel _GSYI8VFQEe2J0bu3ffrh5w at 10,574 size 270,534 {
+  	Panel _GSYI8VFQEe2J0bu3ffrh5w at 10,644 size 270,534 {
   		collapsable true
   		defaultOpen "true"
   		heading StaticContent _GSYJDFFQEe2J0bu3ffrh5w {
@@ -355,6 +345,66 @@ GUI _jIfqkVFOEe2J0bu3ffrh5w {
   			
   			MoveDown _ltm7oVMPEe2KQc5QIsW97w at 2,10 size 14,7 {
   			}
+  		}
+  	}
+  	
+  	Button _LaQrMWHXEe2J86ZFlnxtuA at 10,574 size 200,60 {
+  		label "Create Feature"
+  		styling ButtonStyling _LayPoGHXEe2J86ZFlnxtuA {
+  				fullWidth false
+  				size Default
+  				disabled false
+  				color Default
+  			}
+  		options ButtonOptions _La16AGHXEe2J86ZFlnxtuA {
+  				isLink false
+  				submitsForm true
+  			}
+  		disabled false
+  		icon Icon _LafUsGHXEe2J86ZFlnxtuA {
+  				postIcon None
+  				preIcon None
+  			}
+  		generalStyle GeneralStyling _LaR5U2HXEe2J86ZFlnxtuA {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _LaR5UGHXEe2J86ZFlnxtuA at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _LaR5UmHXEe2J86ZFlnxtuA at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Button _QBjmcWHXEe2J86ZFlnxtuA at 10,1188 size 200,60 {
+  		label "Create Preference"
+  		styling ButtonStyling _QCQKAGHXEe2J86ZFlnxtuA {
+  				fullWidth false
+  				size Default
+  				disabled false
+  				color Default
+  			}
+  		options ButtonOptions _QCeMcGHXEe2J86ZFlnxtuA {
+  				isLink false
+  				submitsForm true
+  			}
+  		disabled false
+  		icon Icon _QBt-gGHXEe2J86ZFlnxtuA {
+  				postIcon None
+  				preIcon None
+  			}
+  		generalStyle GeneralStyling _QBk0kGHXEe2J86ZFlnxtuA {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _QBkNgWHXEe2J86ZFlnxtuA at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _QBkNg2HXEe2J86ZFlnxtuA at 2,10 size 14,7 {
   		}
   	}
   }

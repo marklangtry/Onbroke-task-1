@@ -24,13 +24,8 @@ Process _LCdXgWAcEe22BuOfWtjuXQ {
   	}
   }
   
-  EndSIB _LVu40WAcEe22BuOfWtjuXQ at 330,860 size 100,90 {
+  EndSIB _LVu40WAcEe22BuOfWtjuXQ at 330,860 size 100,65 {
   	branchName "success"
-  	ComplexInputPort _cpKLoWAgEe22BuOfWtjuXQ at 5,67 size 90,18 {
-  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
-  		isList false
-  		name "offer"
-  	}
   }
   
   ProcessSIB _Q4xDkWAcEe22BuOfWtjuXQ at 320,120 size 120,65 {
@@ -49,13 +44,8 @@ Process _LCdXgWAcEe22BuOfWtjuXQ {
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   		isList true
   		name "featuresForOffer"
-  		-ComplexDirectDataFlow-> _Sv_q8WAcEe22BuOfWtjuXQ via (310,246) (310,366) decorate "" at (0,0) {
-  			id _lGsVcWAcEe22BuOfWtjuXQ
-  			dfViewWorkaround true
-  		}
-  		
-  		-ComplexDirectDataFlow-> _SwCuQWAcEe22BuOfWtjuXQ via (310,246) (310,384) decorate "" at (0,0) {
-  			id _lhxu8WAcEe22BuOfWtjuXQ
+  		-ComplexDirectDataFlow-> _n8zsQWDzEe2LfemjndCwDQ via (310,246) (310,346) decorate "" at (0,0) {
+  			id _GrEKcWHSEe2J86ZFlnxtuA
   			dfViewWorkaround true
   		}
   	}
@@ -64,6 +54,10 @@ Process _LCdXgWAcEe22BuOfWtjuXQ {
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   		isList true
   		name "featuresForBidding"
+  		-ComplexDirectDataFlow-> _SwCuQWAcEe22BuOfWtjuXQ via (310,264) (310,364) decorate "" at (0,0) {
+  			id _GLKiYWHSEe2J86ZFlnxtuA
+  			dfViewWorkaround true
+  		}
   	}
   	-ControlFlow-> _Sv158GAcEe22BuOfWtjuXQ  decorate "" at (0,0) {
   		id _TheLMWAcEe22BuOfWtjuXQ
@@ -71,23 +65,35 @@ Process _LCdXgWAcEe22BuOfWtjuXQ {
   	}
   }
   
-  GUISIB _Sv158GAcEe22BuOfWtjuXQ at 320,290 size 120,108 {
+  GUISIB _Sv158GAcEe22BuOfWtjuXQ at 450,270 size 120,144 {
   	cacheGUI false
   	majorPage true
   	libraryComponentUID "_GrzfMV8-Ee2rGL0kbj0kLA"
   	name "UserCreateOffer"
   	label "UserCreateOffer"
   	ignoredBranch [  ]
-  	ComplexInputPort _Sv_q8WAcEe22BuOfWtjuXQ at 5,67 size 110,18 {
+  	ComplexInputPort _n8zsQWDzEe2LfemjndCwDQ at 5,67 size 110,18 {
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   		isList true
-  		name "feature"
+  		name "features"
   	}
   	
   	ComplexInputPort _SwCuQWAcEe22BuOfWtjuXQ at 5,85 size 110,18 {
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   		isList true
   		name "preferences"
+  	}
+  	
+  	PrimitiveInputPort _2Q6LYWDwEe2LfemjndCwDQ at 5,103 size 110,18 {
+  		dataType Text
+  		isList false
+  		name "name"
+  	}
+  	
+  	PrimitiveInputPort _2RBgIWDwEe2LfemjndCwDQ at 5,121 size 110,18 {
+  		dataType Text
+  		isList false
+  		name "description"
   	}
   	-BranchConnector-> _SwFxkWAcEe22BuOfWtjuXQ   {
   		id _SwG_sWAcEe22BuOfWtjuXQ
@@ -129,10 +135,10 @@ Process _LCdXgWAcEe22BuOfWtjuXQ {
   	
   	PrimitiveOutputPort _SwVpMWAcEe22BuOfWtjuXQ at 5,81 size 110,18 {
   		dataType Text
-  		isList true
+  		isList false
   		name "description"
-  		-PrimitiveDirectDataFlow-> _fiYYUWAcEe22BuOfWtjuXQ via (310,510) (310,692) decorate "" at (0,0) {
-  			id _oKsR8WAcEe22BuOfWtjuXQ
+  		-PrimitiveDirectDataFlow-> _Ksor4WD1Ee2LfemjndCwDQ via (310,510) (310,710) decorate "" at (0,0) {
+  			id _Q60FYWD1Ee2LfemjndCwDQ
   			dfViewWorkaround true
   		}
   	}
@@ -146,9 +152,7 @@ Process _LCdXgWAcEe22BuOfWtjuXQ {
   	libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   	label "Create Offer"
   	ignoredBranch [  ]
-  	PrimitiveInputPort _ZbIGMWAcEe22BuOfWtjuXQ at 5,67 size 110,18 {
-  		dataType Text
-  		isList false
+  	TextInputStatic _h0TBsWBKEe2BLrfdnrXkSg at 5,67 size 110,18 {
   		name "internalName"
   	}
   	
@@ -170,16 +174,16 @@ Process _LCdXgWAcEe22BuOfWtjuXQ {
   		name "features"
   	}
   	
-  	PrimitiveInputPort _fiYYUWAcEe22BuOfWtjuXQ at 5,139 size 110,18 {
-  		dataType Text
-  		isList true
-  		name "description"
-  	}
-  	
-  	PrimitiveInputPort _fidQ0WAcEe22BuOfWtjuXQ at 5,157 size 110,18 {
+  	PrimitiveInputPort _fidQ0WAcEe22BuOfWtjuXQ at 5,139 size 110,18 {
   		dataType Text
   		isList false
   		name "title"
+  	}
+  	
+  	PrimitiveInputPort _Ksor4WD1Ee2LfemjndCwDQ at 5,157 size 110,18 {
+  		dataType Text
+  		isList false
+  		name "description"
   	}
   	-BranchConnector-> _ZbR3MWAcEe22BuOfWtjuXQ   {
   		id _ZbTsYWAcEe22BuOfWtjuXQ
@@ -187,16 +191,12 @@ Process _LCdXgWAcEe22BuOfWtjuXQ {
   	}
   }
   
-  Branch _ZbR3MWAcEe22BuOfWtjuXQ at 341,760 size 120,50 {
+  Branch _ZbR3MWAcEe22BuOfWtjuXQ at 341,826 size 120,50 {
   	name "success"
   	ComplexOutputPort _ZbUTcWAcEe22BuOfWtjuXQ at 5,27 size 110,18 {
   		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   		isList false
   		name "created"
-  		-ComplexDirectDataFlow-> _cpKLoWAgEe22BuOfWtjuXQ via (320,796) (320,936) decorate "" at (0,0) {
-  			id _dSBicWAgEe22BuOfWtjuXQ
-  			dfViewWorkaround true
-  		}
   	}
   	-ControlFlow-> _LVu40WAcEe22BuOfWtjuXQ  decorate "" at (0,0) {
   		id _a1ytYWAcEe22BuOfWtjuXQ

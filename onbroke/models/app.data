@@ -119,7 +119,7 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		isList false
   	}
   	
-  	BidirectionalAttribute _xZISQVGIEe2J0bu3ffrh5w at 5,50 size 130,18 {
+  	BidirectionalAttribute _xZISQVGIEe2J0bu3ffrh5w at 5,32 size 130,18 {
   		oppositeAttribute _xY5BsVGIEe2J0bu3ffrh5w
   		dataType _FSL-oVFNEe2J0bu3ffrh5w
   		name "biddings"
@@ -138,10 +138,10 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		isList true
   	}
   	
-  	PrimitiveAttribute _d-_ekV9OEe22B7qwREeq_A at 5,32 size 130,18 {
+  	PrimitiveAttribute _d-_ekV9OEe22B7qwREeq_A at 5,50 size 130,18 {
   		dataType Text
   		name "description"
-  		isList true
+  		isList false
   	}
   	-Inheritance-> _V7iG8FGDEe2J0bu3ffrh5w  decorate "" at (0,0) {
   		id _hIpfoFGDEe2J0bu3ffrh5w

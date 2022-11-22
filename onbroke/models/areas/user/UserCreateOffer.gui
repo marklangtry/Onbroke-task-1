@@ -4,14 +4,14 @@ GUI _GrzfMV8-Ee2rGL0kbj0kLA {
   additionalJavaScript [  ]
   additionalStylesheets [  ]
   title "UserCreateOffer"
-  DataContext _Gr3woV8-Ee2rGL0kbj0kLA at 10,10 size 371,735 {
+  DataContext _Gr3woV8-Ee2rGL0kbj0kLA at 21,64 size 371,735 {
   	dfViewWorkaround true
   	ComplexVariable _IV-iAV8-Ee2rGL0kbj0kLA at 190,50 size 160,105 {
   		expanded true
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   		isInput true
-  		name "feature"
+  		name "features"
   		dfViewWorkaround true
   		isList true
   		ComplexListAttribute _JVpPQV8-Ee2rGL0kbj0kLA at 10,23 size 140,25 {
@@ -38,7 +38,7 @@ GUI _GrzfMV8-Ee2rGL0kbj0kLA {
   		}
   		
   		-TableLoad-> _SmtyAV8-Ee2rGL0kbj0kLA  decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _vT4hEV8-Ee2rGL0kbj0kLA
+  			id _9PsF8WDxEe2LfemjndCwDQ
   		}
   	}
   	
@@ -63,6 +63,9 @@ GUI _GrzfMV8-Ee2rGL0kbj0kLA {
   		PrimitiveAttribute _w-OBUV9REe2Il7slDetLfA at 10,104 size 140,25 {
   			libraryComponentUID "_JgCw0VHqEe2J0bu3ffrh5w"
   			isLive false
+  			-TableColumnLoad-> _VtvNUV8-Ee2rGL0kbj0kLA  decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _k5Z3kWDxEe2LfemjndCwDQ
+  			}
   		}
   		
   		PrimitiveAttribute _w-OoYV9REe2Il7slDetLfA at 10,23 size 140,25 {
@@ -79,71 +82,66 @@ GUI _GrzfMV8-Ee2rGL0kbj0kLA {
   		name "preferences"
   		dfViewWorkaround true
   		isList true
-  		ComplexListAttribute _pue-0V8-Ee2rGL0kbj0kLA at 10,23 size 140,25 {
+  		ComplexListAttribute _vrdr8WDxEe2LfemjndCwDQ at 10,23 size 140,25 {
   			attributeName last
   			libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		ComplexListAttribute _puipMV8-Ee2rGL0kbj0kLA at 10,50 size 140,25 {
+  		ComplexListAttribute _vrruYWDxEe2LfemjndCwDQ at 10,50 size 140,25 {
   			attributeName first
   			libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		PrimitiveListAttribute _pulsgV8-Ee2rGL0kbj0kLA at 10,77 size 140,25 {
+  		PrimitiveListAttribute _vrx1AGDxEe2LfemjndCwDQ at 10,77 size 140,25 {
   			attributeName size
   			primitiveType Integer
   			libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   			isLive false
   		}
-  		-ComplexListAttributeConnector-> _qGeoEV8-Ee2rGL0kbj0kLA  decorate "Ellipse" at (0,0) {
-  			id _qGkusV8-Ee2rGL0kbj0kLA
-  			attributeName current
-  		}
-  		
   		-TableLoad-> _Tbe20F8-Ee2rGL0kbj0kLA  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _wlFDMV8-Ee2rGL0kbj0kLA
   		}
+  		
+  		-ComplexListAttributeConnector-> _zTKLYWDxEe2LfemjndCwDQ  decorate "Ellipse" at (0,0) {
+  			id _zTTVUWDxEe2LfemjndCwDQ
+  			attributeName current
+  		}
   	}
   	
-  	ComplexVariable _qGeoEV8-Ee2rGL0kbj0kLA at 200,470 size 160,132 {
+  	ComplexVariable _38fVoV8-Ee2rGL0kbj0kLA at 10,166 size 171,132 {
   		expanded true
-  		isLive false
-  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
-  		isInput false
-  		name "current"
-  		dfViewWorkaround true
-  		isList false
-  		ComplexAttribute _qGyxIV8-Ee2rGL0kbj0kLA at 10,77 size 140,25 {
-  			libraryComponentUID "_pse4kVHpEe2J0bu3ffrh5w"
-  			isLive false
-  		}
-  		
-  		PrimitiveAttribute _qGyxI18-Ee2rGL0kbj0kLA at 10,50 size 140,25 {
-  			libraryComponentUID "_czYfMVHpEe2J0bu3ffrh5w"
-  			isLive false
-  		}
-  		
-  		PrimitiveAttribute _qGzYMV8-Ee2rGL0kbj0kLA at 10,104 size 140,25 {
-  			libraryComponentUID "_JgCw0VHqEe2J0bu3ffrh5w"
-  			isLive false
-  		}
-  		
-  		PrimitiveAttribute _qGzYM18-Ee2rGL0kbj0kLA at 10,23 size 140,25 {
-  			libraryComponentUID "_r5kYIVLOEe2djpkPxa2Z3Q"
-  			isLive false
-  		}
-  	}
-  	
-  	ComplexVariable _38fVoV8-Ee2rGL0kbj0kLA at 10,166 size 171,25 {
-  		expanded false
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   		isInput false
   		name "pickedFeature"
   		dfViewWorkaround true
   		isList true
+  		ComplexListAttribute _WHIXMWHPEe2J86ZFlnxtuA at 10,77 size 151,25 {
+  			attributeName last
+  			libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _WHPE4WHPEe2J86ZFlnxtuA at 10,23 size 151,25 {
+  			attributeName current
+  			libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _WHTWUWHPEe2J86ZFlnxtuA at 10,50 size 151,25 {
+  			attributeName first
+  			libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveListAttribute _WHYO0WHPEe2J86ZFlnxtuA at 10,104 size 151,25 {
+  			attributeName size
+  			primitiveType Integer
+  			libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
   		-ComplexDataTarget-> _SmtyAV8-Ee2rGL0kbj0kLA  decorate "Text" at (0,0) decorate "" at (0,0) decorate "" at (0,0) {
   			id _FLMLkF8_Ee2rGL0kbj0kLA
   		}
@@ -153,14 +151,38 @@ GUI _GrzfMV8-Ee2rGL0kbj0kLA {
   		}
   	}
   	
-  	ComplexVariable _99eAoV8-Ee2rGL0kbj0kLA at 10,330 size 172,25 {
-  		expanded false
+  	ComplexVariable _99eAoV8-Ee2rGL0kbj0kLA at 10,330 size 172,132 {
+  		expanded true
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   		isInput false
   		name "pickedPref"
   		dfViewWorkaround true
   		isList true
+  		ComplexListAttribute _fKP9gWHPEe2J86ZFlnxtuA at 10,77 size 152,25 {
+  			attributeName last
+  			libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _fKf1IGHPEe2J86ZFlnxtuA at 10,23 size 152,25 {
+  			attributeName current
+  			libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _fKlUsWHPEe2J86ZFlnxtuA at 10,50 size 152,25 {
+  			attributeName first
+  			libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveListAttribute _fKpmIWHPEe2J86ZFlnxtuA at 10,104 size 152,25 {
+  			attributeName size
+  			primitiveType Integer
+  			libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
   		-ComplexDataTarget-> _Tbe20F8-Ee2rGL0kbj0kLA  decorate "Text" at (0,0) decorate "" at (0,0) decorate "" at (0,0) {
   			id _GAIPgV8_Ee2rGL0kbj0kLA
   		}
@@ -172,31 +194,63 @@ GUI _GrzfMV8-Ee2rGL0kbj0kLA {
   	
   	PrimitiveVariable _Q1sq4V8_Ee2rGL0kbj0kLA at 80,610 size 140,25 {
   		dataType Text
-  		isInput false
+  		isInput true
   		name "name"
   		dfViewWorkaround true
   		isList false
-  		-FormSubmit-> _IZON0F8_Ee2rGL0kbj0kLA  decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _XgrVIF8_Ee2rGL0kbj0kLA
-  		}
-  		
   		-AddPrimitiveToSubmission-> _Pyn5wV8-Ee2rGL0kbj0kLA  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _YhjjUF8_Ee2rGL0kbj0kLA
+  		}
+  		
+  		-FormLoadSubmit-> _IZON0F8_Ee2rGL0kbj0kLA  decorate "" at (0,0) decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _oKWk0GBKEe2BLrfdnrXkSg
   		}
   	}
   	
   	PrimitiveVariable _RX9qcV8_Ee2rGL0kbj0kLA at 100,680 size 140,25 {
   		dataType Text
-  		isInput false
+  		isInput true
   		name "description"
   		dfViewWorkaround true
-  		isList true
-  		-FormSubmit-> _J03FYV8_Ee2rGL0kbj0kLA  decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _YBEscF8_Ee2rGL0kbj0kLA
-  		}
-  		
+  		isList false
   		-AddPrimitiveToSubmission-> _Pyn5wV8-Ee2rGL0kbj0kLA  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _ZI4CAV8_Ee2rGL0kbj0kLA
+  		}
+  		
+  		-FormLoadSubmit-> _J03FYV8_Ee2rGL0kbj0kLA  decorate "" at (0,0) decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _p8wWkWBKEe2BLrfdnrXkSg
+  		}
+  	}
+  	
+  	ComplexVariable _zTKLYWDxEe2LfemjndCwDQ at 190,479 size 160,132 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isInput false
+  		name "current"
+  		dfViewWorkaround true
+  		isList false
+  		ComplexAttribute _zUDjQWDxEe2LfemjndCwDQ at 10,77 size 140,25 {
+  			libraryComponentUID "_pse4kVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _zUExYWDxEe2LfemjndCwDQ at 10,50 size 140,25 {
+  			libraryComponentUID "_czYfMVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _zUFYcWDxEe2LfemjndCwDQ at 10,104 size 140,25 {
+  			libraryComponentUID "_JgCw0VHqEe2J0bu3ffrh5w"
+  			isLive false
+  			-TableColumnLoad-> _WTlFUV8-Ee2rGL0kbj0kLA  decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _BMTFcWDyEe2LfemjndCwDQ
+  			}
+  		}
+  		
+  		PrimitiveAttribute _zUFYc2DxEe2LfemjndCwDQ at 10,23 size 140,25 {
+  			libraryComponentUID "_r5kYIVLOEe2djpkPxa2Z3Q"
+  			isLive false
   		}
   	}
   }
@@ -297,7 +351,7 @@ GUI _GrzfMV8-Ee2rGL0kbj0kLA {
   					hover false
   					responsive true
   					name "table"
-  					choices NONE
+  					choices MULTIPLE
   					dropTargets [  ]
   					generalStyle GeneralStyling _Smw1UF8-Ee2rGL0kbj0kLA {
   							tallness Fitting
@@ -333,7 +387,7 @@ GUI _GrzfMV8-Ee2rGL0kbj0kLA {
   									renderMarkdown false
   									maxChars 0
   									html false
-  									rawContent "{{feature.title}} DEFAULT TEXT"
+  									rawContent "{{feature.title}} "
   									styling TextStyling _d2AU8F8-Ee2rGL0kbj0kLA {
   											small false
   											highlight false
@@ -388,7 +442,7 @@ GUI _GrzfMV8-Ee2rGL0kbj0kLA {
   					TableEntry _WTlFUV8-Ee2rGL0kbj0kLA at 10,30 size 220,120 {
   						fullTextSearch false
   						defaultSorting NONE
-  						label "Prefernces"
+  						label "Preferences"
   						sortable false
   						generalStyle GeneralStyling _WTu2UF8-Ee2rGL0kbj0kLA {
   								tallness Fitting
@@ -407,7 +461,7 @@ GUI _GrzfMV8-Ee2rGL0kbj0kLA {
   									renderMarkdown false
   									maxChars 0
   									html false
-  									rawContent "{{preferences.title}} DEFAULT TEXT"
+  									rawContent "{{current.title}}"
   									styling TextStyling _ePOtQV8-Ee2rGL0kbj0kLA {
   											small false
   											highlight false

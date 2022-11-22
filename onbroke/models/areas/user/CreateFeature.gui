@@ -1,0 +1,232 @@
+GUI _phtZMWHSEe2J86ZFlnxtuA {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "CreateFeature"
+  DataContext _phxDkWHSEe2J86ZFlnxtuA at 10,10 size 180,105 {
+  	dfViewWorkaround true
+  	PrimitiveVariable _3XQzwWHSEe2J86ZFlnxtuA at 30,50 size 140,25 {
+  		dataType Text
+  		isInput false
+  		name "title"
+  		dfViewWorkaround true
+  		isList false
+  		-FormSubmit-> _25J7cWHSEe2J86ZFlnxtuA  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _5ZgYUGHSEe2J86ZFlnxtuA
+  		}
+  		
+  		-AddPrimitiveToSubmission-> _15pmQWHSEe2J86ZFlnxtuA  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _570bMWHSEe2J86ZFlnxtuA
+  		}
+  	}
+  }
+  
+  Template _phyRsWHSEe2J86ZFlnxtuA at 240,10 size 500,470 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _phy4wGHSEe2J86ZFlnxtuA {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _phzf0WHSEe2J86ZFlnxtuA at 10,30 size 270,230 {
+  		generalStyle GeneralStyling _ph1VAWHSEe2J86ZFlnxtuA {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _phzf02HSEe2J86ZFlnxtuA at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _ph0G4WHSEe2J86ZFlnxtuA at 2,10 size 14,7 {
+  		}
+  		
+  		Col _ph0t8WHSEe2J86ZFlnxtuA at 10,30 size 240,180 {
+  			wideness Full
+  			layout Layout _ph1VAGHSEe2J86ZFlnxtuA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _ph0t9mHSEe2J86ZFlnxtuA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _ph0t82HSEe2J86ZFlnxtuA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _ph0t9WHSEe2J86ZFlnxtuA at 10,2 size 7,14 {
+  			}
+  			
+  			Form _15ktwWHSEe2J86ZFlnxtuA at 10,30 size 220,120 {
+  				inline false
+  				generalStyle GeneralStyling _15z-UGHSEe2J86ZFlnxtuA {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _15oYIWHSEe2J86ZFlnxtuA at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _15oYI2HSEe2J86ZFlnxtuA at 2,10 size 14,7 {
+  				}
+  				
+  				Field _25J7cWHSEe2J86ZFlnxtuA at 10,30 size 200,60 {
+  					maxMB 0
+  					inputType Text
+  					label "Create Feature"
+  					styling FormFieldStyling _25i9AGHSEe2J86ZFlnxtuA {
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					additionalOptions FormFieldAdditionalOptions _25ZMAGHSEe2J86ZFlnxtuA {
+  							readonly false
+  						}
+  					validation FormFieldValidation _25SeUGHSEe2J86ZFlnxtuA {
+  							min 0
+  							max -1
+  							required false
+  						}
+  					disabled false
+  					icon Icon _25QCEGHSEe2J86ZFlnxtuA {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _25OM4GHSEe2J86ZFlnxtuA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _25M-wWHSEe2J86ZFlnxtuA at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _25M-w2HSEe2J86ZFlnxtuA at 2,10 size 14,7 {
+  					}
+  				}
+  			}
+  		}
+  	}
+  	
+  	Row _x_-sYWHaEe2J86ZFlnxtuA at 10,270 size 480,170 {
+  		generalStyle GeneralStyling _yAFaEGHaEe2J86ZFlnxtuA {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _x_-sY2HaEe2J86ZFlnxtuA at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _x__TcWHaEe2J86ZFlnxtuA at 2,10 size 14,7 {
+  		}
+  		
+  		Col _x__Tc2HaEe2J86ZFlnxtuA at 10,30 size 220,120 {
+  			wideness Full
+  			layout Layout _yACWwGHaEe2J86ZFlnxtuA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _x__6gGHaEe2J86ZFlnxtuA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _x__TdWHaEe2J86ZFlnxtuA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _x__Td2HaEe2J86ZFlnxtuA at 10,2 size 7,14 {
+  			}
+  			
+  			Button _15pmQWHSEe2J86ZFlnxtuA at 10,30 size 200,60 {
+  				label "Submit"
+  				styling ButtonStyling _15wT8GHSEe2J86ZFlnxtuA {
+  						fullWidth false
+  						size Large
+  						disabled false
+  						color Default
+  					}
+  				options ButtonOptions _15xiEGHSEe2J86ZFlnxtuA {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon _15tQoWHSEe2J86ZFlnxtuA {
+  						postIcon None
+  						preIcon None
+  					}
+  				generalStyle GeneralStyling _15tQoGHSEe2J86ZFlnxtuA {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _15sCgWHSEe2J86ZFlnxtuA at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _15spkWHSEe2J86ZFlnxtuA at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  		
+  		Col _yYjkcWHaEe2J86ZFlnxtuA at 240,30 size 220,120 {
+  			wideness Full
+  			layout Layout _yYnO0GHaEe2J86ZFlnxtuA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _yYkykGHaEe2J86ZFlnxtuA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _yYkLgWHaEe2J86ZFlnxtuA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _yYkLg2HaEe2J86ZFlnxtuA at 10,2 size 7,14 {
+  			}
+  			
+  			Button _2egm0WHSEe2J86ZFlnxtuA at 10,30 size 200,60 {
+  				label "Cancel"
+  				styling ButtonStyling _2emGYGHSEe2J86ZFlnxtuA {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Default
+  					}
+  				options ButtonOptions _2enUgGHSEe2J86ZFlnxtuA {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon _2ejDEGHSEe2J86ZFlnxtuA {
+  						postIcon None
+  						preIcon None
+  					}
+  				generalStyle GeneralStyling _2eh08mHSEe2J86ZFlnxtuA {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _2ehN4WHSEe2J86ZFlnxtuA at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _2eh08WHSEe2J86ZFlnxtuA at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  	}
+  }
+}

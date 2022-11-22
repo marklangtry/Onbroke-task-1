@@ -13,6 +13,7 @@ featTmpl = new data.Feature {
 	isTemplateForOffer = true
 }
 
+
 attrTmpl = new data.Feature {
 	title = "Cash Payment"
 	isTemplateForBidding = true
